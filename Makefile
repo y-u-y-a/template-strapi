@@ -4,6 +4,6 @@ setup:
 dev:
 	yarn dev
 test-get:
-	curl http://127.0.0.1:1337/api/news-posts | python -mjson.tool
+	curl http://localhost:1337/api/news-posts | python -mjson.tool
 test-post:
-	curl http://127.0.0.1:1337/api/news-posts | python -mjson.tool
+	curl http://localhost:1337/api/news-posts | python -mjson.tool
